@@ -76,6 +76,9 @@ markup:
         block: true
     renderer:
       unsafe: true
+  postcss:
+    command: "postcss"
+    args: ["--no-map", "--output", "assets/css/main.css", "assets/scss/main.scss"]
   highlight:
     # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
     style: tango
