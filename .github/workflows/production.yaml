@@ -24,8 +24,10 @@ on:
 
   # Allow triggering manually.
   workflow_dispatch:
-
 jobs:
+  job-name:
+    permissions:
+      contents: write
   deploy:
     runs-on: ubuntu-20.04
     concurrency:
