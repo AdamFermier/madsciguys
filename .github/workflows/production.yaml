@@ -33,9 +33,6 @@ jobs:
         run: hugo
 
       - name: Deploy
-        environment: 
-          name: github-pages
-          url: ${{ steps.deployment.outputs.page_url }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
