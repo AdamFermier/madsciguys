@@ -40,7 +40,7 @@ jobs:
 
       # Build the Hugo site
       - name: Build Hugo site
-        run: hugo --extended
+        run: hugo --minify
         
       # Deploy to GitHub Pages
       - name: Deploy
