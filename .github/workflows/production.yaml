@@ -39,7 +39,12 @@ jobs:
           }' > postcss.config.js
 
       - name: Build
-        run: hugo
+        run: hugo --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./public
 
   deploy:
 #    environment:
