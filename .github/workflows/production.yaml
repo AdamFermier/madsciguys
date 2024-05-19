@@ -30,7 +30,6 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-          # Uncomment the following line if using a Hugo theme as a Git submodule
           extended: true
 
       # Install PostCSS dependencies
@@ -40,7 +39,7 @@ jobs:
 
       # Build the Hugo site
       - name: Build Hugo site
-        run: hugo --minify
+        run: hugo
         
       # Deploy to GitHub Pages
       - name: Deploy
