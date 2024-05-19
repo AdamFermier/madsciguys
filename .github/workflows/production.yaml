@@ -33,8 +33,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: peaceiris/actions-gh-pages@v3
       - name: Build
+        uses: peaceiris/actions-gh-pages@v3
         run: |
           color='#AFE1AF'
           version=' \&middot; <a href=\"https://github.com/${{ github.repository }}/tree/${{ github.sha }}\">${{ github.sha }}</a>'
