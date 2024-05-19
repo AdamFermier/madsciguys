@@ -33,7 +33,7 @@ jobs:
         with:
           hugo-version: 'latest'
           # Uncomment the following line if using a Hugo theme as a Git submodule
-          # extended: true
+          extended: true
 
       # Build the Hugo site
       - name: Build Hugo site
