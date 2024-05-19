@@ -1,6 +1,5 @@
 name: Production
 
-# Trigger the workflow on pushes to the main branch, but only for changes in the .github/workflows and public directories
 on:
   push:
     branches:
@@ -9,7 +8,6 @@ on:
       - '.github/workflows/**'
       - 'public/**'
 
-  # Allow triggering the workflow manually
   workflow_dispatch:
 
 jobs:
@@ -33,19 +31,22 @@ jobs:
         with:
           hugo-version: 'latest'
           # Uncomment the following line if using a Hugo theme as a Git submodule
-          extended: true
+          # extended: true
+
+      # Install PostCSS dependencies
+      - name: Install PostCSS
+        run: |
+          npm install -g postcss-cli autoprefixer
 
       # Build the Hugo site
       - name: Build Hugo site
-        run: hugo 
-        
+        run: hugo --minify
+
       # Deploy to GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          # Do not delete previews on each production deploy
           keep_files: true
-          # Use the commit message as the deployment commit message
           commit_message: "deploy: ${{ github.event.head_commit.message }}"
