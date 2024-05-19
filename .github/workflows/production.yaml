@@ -1,19 +1,6 @@
-# Copyright 2022 Google LLC
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
 name: Production
 
+# Trigger the workflow on pushes to the main branch, but only for changes in the .github/workflows and public directories
 on:
   push:
     branches:
@@ -22,28 +9,43 @@ on:
       - '.github/workflows/**'
       - 'public/**'
 
-  # Allow triggering manually.
+  # Allow triggering the workflow manually
   workflow_dispatch:
+
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
     permissions:
       contents: write
+
     steps:
-      - name: Build
-        run: |
-          color='#AFE1AF'
-          version=' \&middot; <a href=\"https://github.com/${{ github.repository }}/tree/${{ github.sha }}\">${{ github.sha }}</a>'
-          sed -i "s,#fff,$color,g" $(find ./public -type f)
-          sed -i "s,#vvv,$version,g" $(find ./public -type f)
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      # Set up Hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          # Uncomment the following line if using a Hugo theme as a Git submodule
+          # extended: true
+
+      # Build the Hugo site
+      - name: Build Hugo site
+        run: hugo --minify
+
+      # Deploy to GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        with: 
+        with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          # Do not delete previews on each production deploy.
+          # Do not delete previews on each production deploy
           keep_files: true
+          # Use the commit message as the deployment commit message
           commit_message: "deploy: ${{ github.event.head_commit.message }}"
