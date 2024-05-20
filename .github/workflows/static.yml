@@ -49,6 +49,7 @@ jobs:
        hugo
   # Now deploy
   deploy:
+    needs: Build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
