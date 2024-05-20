@@ -24,6 +24,19 @@ jobs:
         with:
           hugo-version: '0.110.0'
 
+            - name: Install PostCSS Plugins
+        run: |
+          npm install autoprefixer --save-dev
+
+      - name: Configure PostCSS
+        run: |
+          echo 'module.exports = {
+            plugins: [
+              require("autoprefixer")
+            ]
+          }' > postcss.config.js
+
+
       - name: Build
         run: hugo --minify
 
