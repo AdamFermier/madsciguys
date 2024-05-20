@@ -23,7 +23,7 @@ jobs:
            sudo dpkg -i pandoc-2.10-1-amd64.deb
  
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v4
+      uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: 'latest'
         extended: true
