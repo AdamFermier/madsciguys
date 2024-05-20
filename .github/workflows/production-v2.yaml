@@ -24,7 +24,7 @@ jobs:
         with:
           hugo-version: '0.110.0'
 
-            - name: Install PostCSS Plugins
+      - name: Install PostCSS Plugins
         run: |
           npm install autoprefixer --save-dev
 
