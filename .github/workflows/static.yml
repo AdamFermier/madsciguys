@@ -65,4 +65,4 @@ jobs:
           # Upload public folder repository
           path: './public'
       - name: Deploy to GitHub Pages
-          uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4
