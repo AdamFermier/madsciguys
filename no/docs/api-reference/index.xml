@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Komplett API-referance on Gulldoks</title>
-    <link>https://example.docsy.dev/no/docs/api-reference/</link>
+    <link>/no/docs/api-reference/</link>
     <description>Recent content in Komplett API-referance on Gulldoks</description>
     <generator>Hugo</generator>
     <language>no</language>
-    <lastBuildDate>Mon, 20 May 2024 16:29:48 -0400</lastBuildDate>
-    <atom:link href="https://example.docsy.dev/no/docs/api-reference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 May 2024 13:56:57 -0400</lastBuildDate>
+    <atom:link href="/no/docs/api-reference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Matten til monolitter: Detaljert spesifikasjon</title>
-      <link>https://example.docsy.dev/no/docs/api-reference/the-math-of-monoliths-detailed-spec/</link>
+      <link>/no/docs/api-reference/the-math-of-monoliths-detailed-spec/</link>
       <pubDate>Tue, 03 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.docsy.dev/no/docs/api-reference/the-math-of-monoliths-detailed-spec/</guid>
+      <guid>/no/docs/api-reference/the-math-of-monoliths-detailed-spec/</guid>
       <description>Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. Lorem markdownum tempus auras formasque ore vir crescere est! Malo quod, hunc, est dura; aut haec simillima nec per conantemque iusserat audax moriensque confessasque. Haec vulneret quam libratum homo pede arbore tu manus membrisque iuveni Clymeneia se cepi unda, iustae? Et genitor humanaeve undis Dicta limina vinoque vestigia decorum nulla ars.</description>
     </item>
     <item>
       <title>Innsiden av Java: Drivverket</title>
-      <link>https://example.docsy.dev/no/docs/api-reference/the-inside-of-java-the-inner-workings/</link>
+      <link>/no/docs/api-reference/the-inside-of-java-the-inner-workings/</link>
       <pubDate>Mon, 02 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.docsy.dev/no/docs/api-reference/the-inside-of-java-the-inner-workings/</guid>
+      <guid>/no/docs/api-reference/the-inside-of-java-the-inner-workings/</guid>
       <description>Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. Lorem markdownum tempus auras formasque ore vir crescere est! Malo quod, hunc, est dura; aut haec simillima nec per conantemque iusserat audax moriensque confessasque. Haec vulneret quam libratum homo pede arbore tu manus membrisque iuveni Clymeneia se cepi unda, iustae? Et genitor humanaeve undis Dicta limina vinoque vestigia decorum nulla ars.</description>
     </item>
   </channel>
