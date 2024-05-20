@@ -1,50 +1,41 @@
-# Smoke test across OSs: build a Docsy-based site from scratch,
-# using Docsy as hugo module and fetching Docsy via NPM.
-
-name: docsy-smoke test
+name: Hugo
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   pull_request:
-  # schedule: # midnight every day
-  #   - cron: '0 0 * * *'
-  workflow_dispatch:
+    branches: [ main ]
 
 jobs:
-  new-site:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [windows-latest, ubuntu-latest]
-        docsy-src: [NPM, HUGO_MODULE]
-    env:
-      BASE_REPO: ${{ github.repository }}
-      BRANCH: ${{ github.head_ref }}
-      PR_REPO: ${{ github.event.pull_request.head.repo.full_name }}
-      SHA: ${{ github.sha }}
-    # TODO: drop PR testing under Windows because it's too slow?
-    # if: github.event_name != 'pull_request' && matrix.os != 'windows-latest'
-    if: github.event_name != 'push' || github.repository == 'google/docsy'
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version-file: .nvmrc
-          cache: npm
-          cache-dependency-path: package.json
-      - run: tools/install-hugo.sh
-        shell: bash
-      - name: Make site (non-PR)
-        if: github.event_name != 'pull_request'
-        run: |
-          mkdir tmp && cd tmp && set -x
-          ../tools/make-site.sh -s ${{ matrix.docsy-src }} -r $BASE_REPO -v $SHA
-        shell: bash
-      - name: Make site from PR
-        if: github.event_name == 'pull_request'
-        run: |
-          mkdir tmp && cd tmp && set -x
-          ../tools/make-site.sh -s ${{ matrix.docsy-src }} -r $PR_REPO -v $BRANCH
-        shell: bash
+    - name: Checkout repository and submodules
+      uses: actions/checkout@v2
+      with:
+        submodules: recursive
+  
+    - name: install pandoc
+      run: |
+           wget https://github.com/jgm/pandoc/releases/download/2.10/pandoc-2.10-1-amd64.deb
+           sudo dpkg -i pandoc-2.10-1-amd64.deb
+ 
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+        extended: true
+          
+    - name: Build
+      run: |
+       npm install -D --save autoprefixer
+       npm install -D --save postcss-cli
+       hugo
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
