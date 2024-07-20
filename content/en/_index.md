@@ -15,12 +15,7 @@ title: Madsciguys
 
 
 {{% blocks/lead color="primary" %}}
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
-
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
+<p><strong>STEAM&nbsp;</strong>is the pursuit of collaborations across the domains to achieve a superior outcome. </p>
 {{% /blocks/lead %}}
 
 
@@ -46,8 +41,7 @@ For announcement of latest features etc.
 
 
 {{% blocks/section %}}
-This is the second section
-{.h1 .text-center}
+Adding the "ARTS" to the classic STEM thinking helps the <strong>design elements to be blended into the solution.</strong>
 {{% /blocks/section %}}
 
 
@@ -72,6 +66,5 @@ For announcement of latest features etc.
 
 
 {{% blocks/section %}}
-This is the another section
-{.h1 .text-center}
+It takes patience and persistance to make your dream come to life!
 {{% /blocks/section %}}
