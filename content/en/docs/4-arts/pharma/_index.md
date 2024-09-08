@@ -12,3 +12,5 @@ Pharmaceutical companies aim to improve global health by researching, developing
 - making healthcare accessible through affordable pricing. 
 
 Additionally, they focus on regulatory compliance, fostering collaborations with healthcare professionals, and conducting clinical trials to gather evidence supporting their products. Ultimately, these companies strive to enhance patient outcomes and contribute to the advancement of medical science.
+
+https://www.aps.org/archives/publications/apsnews/199906/popa.cfm
