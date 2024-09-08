@@ -10,3 +10,7 @@ The pharmaceutical industry relies on a structured approach to ensure the safety
 - Clinical development process
 - Impact of ICH regulations
 - Role of automation in the pharmaceutical landscape
+
+## Cost of Pharma
+
+<div class="infogram-embed" data-id="_/vBkHacw09QsQ3vsaWElO" data-type="interactive" data-title="R&amp;amp;D ROI 2023 line"></div><script>!function(e,n,i,s){var d="InfogramEmbeds";var o=e.getElementsByTagName(n)[0];if(window[d]&&window[d].initialized)window[d].process&&window[d].process();else if(!e.getElementById(i)){var r=e.createElement(n);r.async=1,r.id=i,r.src=s,o.parentNode.insertBefore(r,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script>
