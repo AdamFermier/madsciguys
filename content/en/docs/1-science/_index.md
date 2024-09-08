@@ -11,6 +11,6 @@ Science extends and enriches our lives, expands our imagination and liberates us
 
 The success and credibility of science is anchored in the willingness of scientists to:
 
-    Expose their ideas and results to independent testing and replication by other scientists. This requires the complete and open exchange of data, procedures and materials.
+- Expose their ideas and results to independent testing and replication by other scientists. This requires the complete and open exchange of data, procedures and materials.
      
-    Abandon or modify accepted conclusions when confronted with more complete or reliable experimental evidence. Adherence to these principles provides a mechanism for self-correction that is the foundation of the credibility of science.
+ - Abandon or modify accepted conclusions when confronted with more complete or reliable experimental evidence. Adherence to these principles provides a mechanism for self-correction that is the foundation of the credibility of science.
