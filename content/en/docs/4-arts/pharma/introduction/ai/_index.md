@@ -1,8 +1,8 @@
 ---
-title: Automation
-linkTitle: Automation
+title: Artificial Intelligence
+linkTitle: AI
 weight: 1
-Description: Automation helps both physical and digital attributes of producing our products
+Description: AI helps both physical and digital attributes of producing our products
 ---
 
 {{% imgproc sankey-ai-to-country.png Fill "596x474" %}}
