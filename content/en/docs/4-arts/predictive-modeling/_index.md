@@ -4,3 +4,5 @@ description: Predictive modeling is an area of study to help humans leverage adv
   mathematical approaches to find patterns in the historical data upon which future
   predictions can occur.
 ---
+
+{{< accordion id="predictive-modelling" >}}
