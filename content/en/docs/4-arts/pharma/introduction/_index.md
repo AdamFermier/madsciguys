@@ -32,7 +32,3 @@ Peak Sales Forecast:
 
 <script id="infogram_0__/q2S8rnb3id9f4TT0TwfB" title="R&amp;amp;amp;D ROI 2023 - Cost to launch" src="https://e.infogram.com/js/dist/embed.js?lcA" type="text/javascript"></script>
 <script id="infogram_0__/GklH9ZkaeEEZwcZRligq" title="R&amp;amp;amp;D ROI 2023 - Average peak sales" src="https://e.infogram.com/js/dist/embed.js?kdi" type="text/javascript"></script>
-
-## Artificial Intelligence and Pharma
-
-There has been a lot of hype around AI and pharma - how it can reduce costs and remove a lot of manual labor that for sometime was always seen as necessary human activities, that is writing.  But now with large language models, AI can really start eroding away at those manual human tasks and launch us into the Industry 5.0 mentality of workers with AI assistance to do their jobs.

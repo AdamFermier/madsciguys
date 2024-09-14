@@ -2,8 +2,10 @@
 title: Artificial Intelligence
 linkTitle: AI
 weight: 1
-Description: AI helps both physical and digital attributes of producing our products
+Description: Artificial Intelligence and Pharma
 ---
+
+There has been a lot of hype around AI and pharma - how it can reduce costs and remove a lot of manual labor that for sometime was always seen as necessary human activities, that is writing.  But now with large language models, AI can really start eroding away at those manual human tasks and launch us into the Industry 5.0 mentality of workers with AI assistance to do their jobs.
 
 {{% imgproc sankey-ai-to-country.png Fill "596x474" %}}
 Where countries are spending their time - ref: https://arxiv.org/pdf/2401.10273
