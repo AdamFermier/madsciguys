@@ -2,14 +2,14 @@
     {{ range .Page.Pages }}
     {{ if .Params.description }}
     <div class="card">
-      <div class="card-header" id="heading-{{ .Title | lower | replace " " "-" }}">
+      <div class="card-header" id="heading-{{ .Params.title | lower | replace " " "-" }}">
         <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-{{ .Title | lower | replace " " "-" }}" aria-expanded="true" aria-controls="collapse-{{ .Title | lower | replace " " "-" }}">
-            {{ .Title }}
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-{{ .Params.title | lower | replace " " "-" }}" aria-expanded="true" aria-controls="collapse-{{ .Params.title | lower | replace " " "-" }}">
+            {{ .Params.title }}
           </button>
         </h5>
       </div>
-      <div id="collapse-{{ .Title | lower | replace " " "-" }}" class="collapse" aria-labelledby="heading-{{ .Title | lower | replace " " "-" }}" data-parent="#{{ .Get "id" }}">
+      <div id="collapse-{{ .Params.title | lower | replace " " "-" }}" class="collapse" aria-labelledby="heading-{{ .Params.title | lower | replace " " "-" }}" data-parent="#{{ .Get "id" }}">
         <div class="card-body">
           <p>{{ .Params.description }}</p>
           <a href="{{ .Permalink }}" class="btn btn-primary">Read More</a>
