@@ -5,4 +5,3 @@ description: Predictive modeling is an area of study to help humans leverage adv
   predictions can occur.
 ---
 
-{{< accordion id="predictive-modelling" >}}

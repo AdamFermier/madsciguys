@@ -208,3 +208,5 @@ module:
   imports:
     - path: github.com/google/docsy
       disable: false
+    - path: github.com/hugomods/shortcodes
+      disable: false
