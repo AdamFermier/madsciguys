@@ -1,7 +1,7 @@
 ---
 title: International Council for Harmonisation 
 linkTitle: ICH Standards
-weight: 1
+weight: 2
 Description: The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use (ICH) is unique in bringing together the regulatory authorities and pharmaceutical industry to discuss scientific and technical aspects of pharmaceuticals and develop ICH guidelines
 ---
 
