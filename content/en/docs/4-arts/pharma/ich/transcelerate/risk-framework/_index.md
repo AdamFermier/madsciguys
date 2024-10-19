@@ -1,11 +1,11 @@
 ---
-title: Risk Framework
-linkTitle: Risk Framework
-weight: 1
-Description: Quality Risk Management Framework: Guidance for Successful Implementation of Risk in Clinical Development
+title: "Risk Framework"
+linkTitle: "Risk Framework"
+wieght: 1
+description: "Quality Risk Management Framework: Guidance for Successful Implementation of Risk in Clinical Development"
 ---
 
-isk management is a key term used across many organizations as an effective means to communicate broader sustained exposures to the organization and thereby drive a more end to end mindset focused upon the patients safety and efficacy.  The critical component on establishing an effective risk management framework is following the entire 4 step process as outlined below.
+Risk management is a key term used across many organizations as an effective means to communicate broader sustained exposures to the organization and thereby drive a more end to end mindset focused upon the patients safety and efficacy.  The critical component on establishing an effective risk management framework is following the entire 4 step process as outlined below.
 
 The minimal requirements for an effective risk management methodology based on ICH E6(2):
 

@@ -2,7 +2,7 @@
 title: Pharaceuticals
 linkTitle: Pharma
 weight: 1
-Description: Pharma is focused on delivering innovative medical treatments to help our patients
+description: Pharma is focused on delivering innovative medical treatments to help our patients
 ---
 
 Pharmaceutical companies aim to improve global health by researching, developing, and manufacturing medications that prevent, treat, and cure diseases. Their primary goals include:
