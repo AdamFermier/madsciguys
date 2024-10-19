@@ -1,7 +1,8 @@
 ---
 title: "ICH Q10 Pharmaceutical Quality System"
 linktitle: "ICH Q10"
-Description: "ICH Q10 Pharmaceutical Quality System"
+description: "ICH Q10 Pharmaceutical Quality System"
+weight: 10
 ---
 
 ### An Overview of ICH Q10: Pharmaceutical Quality System

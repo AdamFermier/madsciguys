@@ -1,7 +1,8 @@
 ---
 title: "ICH Q8 Pharmaceutical Development"
 linktitle: "ICH Q8"
-Description: "ICH Q8 Pharmaceutical Development"
+description: "ICH Q8 Pharmaceutical Development"
+weight: 8
 ---
 
 ### Exploring ICH Q8: Pharmaceutical Development

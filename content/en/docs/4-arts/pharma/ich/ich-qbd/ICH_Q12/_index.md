@@ -1,7 +1,8 @@
 ---
 title: "ICH Q12 Lifecycle Management"
 linktitle: "ICH Q12"
-Description: "ICH Q12 Lifecycle Management"
+description: "ICH Q12 Lifecycle Management"
+weight: 12
 ---
 
 ### Understanding ICH Q12: Technical and Regulatory Considerations for Pharmaceutical Product Lifecycle Management

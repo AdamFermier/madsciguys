@@ -1,7 +1,8 @@
 ---
 title: "ICH Q9 Quality Risk Management"
 linktitle: "ICH Q9"
-Description: "ICH Q9 Quality Risk Management"
+description: "ICH Q9 Quality Risk Management"
+weight: 9
 ---
 
 ### Understanding ICH Q9: Quality Risk Management

@@ -1,7 +1,8 @@
 ---
 title: "ICH Q11 Development and Manufacturing of Drug Substances"
 linktitle: "ICH Q11"
-Description: "ICH Q11 Development and Manufacturing of Drug Substances"
+description: "ICH Q11 Development and Manufacturing of Drug Substances"
+weight: 11
 ---
 
 ### Exploring ICH Q11: Development and Manufacture of Drug Substances
