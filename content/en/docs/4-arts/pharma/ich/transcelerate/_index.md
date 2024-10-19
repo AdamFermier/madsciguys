@@ -2,7 +2,7 @@
 title: Transcelerate
 linkTitle: Transcelerate
 weight: 1
-Description: Quality by Design for Clinical
+description: Quality by Design for Clinical
 ---
 
 The foundational paper that set the groundwork for implementing a quality management system (QMS) through which organizations can systematically plan and achieve their quality objectives.  Paper addresses both the culture and system components that are required to achieve.
@@ -17,5 +17,3 @@ Components of the framework helps organization compartmentalize and deliver on t
 -   Continuous Improvement (e.g., never satisfied with status quo)
 
 https://journals.sagepub.com/doi/pdf/10.1177/2168479015596018
-
-<iframe src="https://journals.sagepub.com/doi/pdf/10.1177/2168479015596018" style="border:none; width:100%; height:500px;" allowfullscreen></iframe>

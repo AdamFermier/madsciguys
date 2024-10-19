@@ -2,7 +2,7 @@
 title: Knowledge Management
 linkTitle: Knowledge Management
 weight: 1
-Description: A Knowledge Management Framework and Approach for Clinical Development
+description: A Knowledge Management Framework and Approach for Clinical Development
 ---
 
 Knowledge management is probably one of the most difficult problems to tackle in this modern digital age for the shear volume, veracity, variety and velocity at which new content is generated makes it difficult to reassemble if deliberate actions for organization and tagging where not taken before hand.  Fortunately there's hope, for we're not in this alone, literally the entire world is struggling with this problems and scientists, technologists, engineers and mathematicians (STEM) have been deliberately attacking this problem through the creation of art (visualizations) - thereby transforming STEM to STEAM.
