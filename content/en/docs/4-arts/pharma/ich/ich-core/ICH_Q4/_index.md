@@ -1,7 +1,8 @@
 ---
 title: "ICH Q4 Pharmacopoeial Harmonisation"
 linktitle: "ICH Q4"
-Description: "ICH Q4 Pharmacopoeial Harmonisation"
+description: "ICH Q4 Pharmacopoeial Harmonisation"
+weight: 4
 ---
 
 ### Exploring ICH Q4: Pharmacopoeial Standards for Drug Substances and Products

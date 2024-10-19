@@ -1,7 +1,8 @@
 ---
 title: "ICH Q13 Continuous Manufacturing"
 linktitle: "ICH Q13"
-Description: "ICH Q13 Continuous Manufacturing"
+description: "ICH Q13 Continuous Manufacturing"
+weight: 13
 ---
 
 ### An Overview of ICH Q13: Continuous Manufacturing

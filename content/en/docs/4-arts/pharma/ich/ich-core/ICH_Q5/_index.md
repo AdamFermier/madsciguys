@@ -1,7 +1,8 @@
 ---
 title: "ICH Q5 Quality of Biotechnological Products"
 linktitle: "ICH Q5"
-Description: "ICH Q5 Quality of Biotechnological Products"
+description: "ICH Q5 Quality of Biotechnological Products"
+weight: 5
 ---
 
 ### Understanding ICH Q5: Quality of Biotechnological Products

@@ -1,7 +1,8 @@
 ---
 title: "ICH Q6 Specifications"
 linktitle: "ICH Q6"
-Description: "ICH Q6 Specifications"
+description: "ICH Q6 Specifications"
+weight: 6
 ---
 
 ### A Guide to ICH Q6: Quality Control for Biotechnological and Biological Products

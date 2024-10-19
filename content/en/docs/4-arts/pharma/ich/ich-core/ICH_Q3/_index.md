@@ -1,7 +1,8 @@
 ---
 title: "ICH Q3 Impurities"
 linktitle: "ICH Q3"
-Description: "ICH Q3 Impurities"
+description: "ICH Q3 Impurities"
+weight: 3
 ---
 
 ### An Insight into ICH Q3: Impurities in Drug Substances and Products

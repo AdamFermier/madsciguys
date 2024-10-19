@@ -1,7 +1,8 @@
 ---
 title: "ICH Q14 Analytical Procedure Development"
 linktitle: "ICH Q14"
-Description: "ICH Q14 Analytical Procedure Development"
+description: "ICH Q14 Analytical Procedure Development"
+weight: 14
 ---
 
 ### Exploring ICH Q14: Analytical Procedure Development and Validation

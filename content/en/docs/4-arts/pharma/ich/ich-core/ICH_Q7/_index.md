@@ -1,7 +1,8 @@
 ---
 title: "ICH Q7 Good Manufacturing Practice"
 linktitle: "ICH Q7"
-Description: "ICH Q7 Good Manufacturing Practice"
+description: "ICH Q7 Good Manufacturing Practice"
+weight: 7
 ---
 
 ### An Overview of ICH Q7: Good Manufacturing Practice for Active Pharmaceutical Ingredients
