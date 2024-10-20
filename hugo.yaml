@@ -222,3 +222,8 @@ params:
     # When svg is set to true, diagrams are displayed using <svg /> tags, maintaining functionality like links e.g.
     # default = false
     svg: true
+  ui:
+    sidebar_menu_compact: true
+    ul_show: 1
+    sidebar_menu_foldable: true
+    sidebar_cache_limit: 1000
