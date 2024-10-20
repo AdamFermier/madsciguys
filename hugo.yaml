@@ -121,7 +121,7 @@ params:
   github_branch: main
 
   # Google Custom Search Engine ID. Remove or comment out to disable search.
-  # gcs_engine_id: d72aa9b2712488cc3
+  #  gcs_engine_id: d72aa9b2712488cc3
 
   # Enable Lunr.js offline search
   offlineSearch: true
@@ -143,11 +143,8 @@ params:
     navbar_translucent_over_cover_disable: false
     # Enable to show the side bar menu in its compact state.
     sidebar_menu_compact: true
-    
     # Show expand/collapse icon for sidebar sections
-    
     sidebar_menu_foldable: true
-    
     # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
     sidebar_search_disable: false
 
@@ -167,7 +164,7 @@ params:
     # If you want this feature, but occasionally need to remove the Reading time from a single page,
     # add "hide_readingtime: true" to the page's front matter
     readingtime:
-      enable: false
+      enable: true
 
   links:
     # End user relevant links. These will show up on left side of footer and in the community page if you have one.
@@ -198,6 +195,16 @@ params:
         url: https://example.org/mail
         icon: fa fa-envelope
         desc: Discuss development issues around the project
+  plantuml:
+    enable: true
+    theme: default
+    # Set url to plantuml server
+    # default is http://www.plantuml.com/plantuml/svg/
+    svg_image_url: 'https://www.plantuml.com/plantuml/svg/'
+    # By default the plantuml implementation uses <img /> tags to display UML diagrams.
+    # When svg is set to true, diagrams are displayed using <svg /> tags, maintaining functionality like links e.g.
+    # default = false
+    svg: true
 
 module:
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
@@ -211,19 +218,3 @@ module:
     - path: github.com/hugomods/shortcodes
       disable: false
 
-params:
-  plantuml:
-    enable: true
-    theme: default
-    # Set url to plantuml server
-    # default is http://www.plantuml.com/plantuml/svg/
-    svg_image_url: 'https://www.plantuml.com/plantuml/svg/'
-    # By default the plantuml implementation uses <img /> tags to display UML diagrams.
-    # When svg is set to true, diagrams are displayed using <svg /> tags, maintaining functionality like links e.g.
-    # default = false
-    svg: true
-  ui:
-    sidebar_menu_compact: true
-    ul_show: 1
-    sidebar_menu_foldable: true
-    sidebar_cache_limit: 1000
