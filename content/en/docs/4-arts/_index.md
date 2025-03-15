@@ -7,8 +7,3 @@ menu: {main: {weight: 50}}
 weight: 50
 ---
 
-
-subpages:
-- Design-Study-Methodology
-- Predictive-Modelling
-- Data-Science
