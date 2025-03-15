@@ -1,8 +1,8 @@
 ---
 title: STEAM
 linkTitle: STEAM
-menu: {main: {weight: 20}}
-weight: 20
+menu: {main: {weight: 100}}
+weight: 100
 cascade: 
   type: "docs"
 ---
