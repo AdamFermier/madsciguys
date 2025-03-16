@@ -1,6 +1,7 @@
 ---
 title: Cell Biology
-description: Cell biology is the branch of biology that studies the structure, function, and behavior of cells—the fundamental units of life.---
+description: "Cell biology is the branch of biology that studies the structure, function, and behavior of cells—the fundamental units of life"
+---
 
 **Cell Biology: Understanding Life at the Cellular Level**
 
