@@ -15,13 +15,17 @@ title: Madsciguys
 
 
 {{% blocks/lead color="primary" %}}
-<p><strong>STEAM&nbsp;</strong>is the pursuit of collaborations across the domains to achieve a superior outcome. </p>
+<p style="text-align: center;"><strong>STEAM&nbsp;</strong>is the pursuit of collaborations across the domains to achieve a superior outcome.</p>
 {{% /blocks/lead %}}
 
 {{% blocks/section %}}
+<p style="text-align: center;">
 Adding the "ARTS" to the classic STEM thinking helps the <strong>design elements to be blended into the solution.</strong>
+</p>
 {{% /blocks/section %}}
 
 {{% blocks/section %}}
+<p style="text-align: center;">
 It takes patience and persistance to make your dream come to life!
+</p>
 {{% /blocks/section %}}
