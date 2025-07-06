@@ -1,12 +1,14 @@
-# Docsy Example
+# MadSciGuys
 
-[Docsy][] is a [Hugo theme module][] for technical documentation sites, providing easy
-site navigation, structure, and more. This **Docsy Example Project** uses the Docsy
-theme component as a hugo module and provides a skeleton documentation structure for you to use.
-You can clone/copy this project and edit it with your own content, or use it as an example.
+**MadSciGuys** is a digital space dedicated to exploring how science, technology, and collaboration can help humanity address complex challenges. This site documents our ongoing research, experiments, and discoveries as we investigate the tools, methods, and ideas shaping the future of scientific inquiry.
 
-In this project, the Docsy theme is pulled in as a Hugo module, together with
-its dependencies:
+MadSciGuys brings together a diverse community—scientists, engineers, technologists, artists, and thinkers from all backgrounds—reflecting the belief that solving the world's most pressing problems requires many perspectives and disciplines. Here, we share our journey as we learn how digital platforms, open knowledge, and emerging technologies can advance research and innovation for the benefit of all.
+
+This site is built using [Docsy][], a [Hugo theme module][] designed for technical documentation. Docsy provides clear navigation, structured content, and a modern look for our research notes, project documentation, and resources.
+
+---
+
+In this project, the Docsy theme is pulled in as a Hugo module, together with its dependencies:
 
 ```console
 $ hugo mod graph
@@ -15,9 +17,8 @@ $ hugo mod graph
 
 For Docsy documentation, see [Docsy user guide][].
 
-This Docsy Example Project is hosted on [Netlify][] at [example.docsy.dev][].
-You can view deploy logs from the [deploy section of the project's Netlify
-dashboard][deploys], or this [alternate dashboard][].
+This MadSciGuys site is hosted on [Netlify][] at [example.docsy.dev][].  
+You can view deploy logs from the [deploy section of the project's Netlify dashboard][deploys], or this [alternate dashboard][].
 
 This is not an officially supported Google product. This project is currently maintained.
 
