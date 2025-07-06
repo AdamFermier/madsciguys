@@ -1,5 +1,6 @@
 ---
 title: "Why You Must Keep Data Human-Readable — Even Years Later"
+linkTitle: "Digital Regulations"
 date: 2025-04-11
 tags: ["compliance", "data integrity", "21 CFR Part 11", "GxP", "records retention"]
 ---
