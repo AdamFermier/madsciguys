@@ -1,15 +1,13 @@
 ---
 title: "From Trenches to Transformation: How Design Study Methodology Can Accelerate Knowledge Evolution in 2025"
 date: 2025-07-06
-draft: false
+linktitle: Design Study Methodology
 tags: ["research methodology", "design studies", "knowledge evolution", "AI", "collaboration", "2025"]
 categories: ["Research", "Methodology", "Innovation"]
 author: "Your Name"
 description: "Reflecting on the seminal 2012 design study methodology paper and exploring how its principles can be reimagined to accelerate knowledge creation in our rapidly evolving world."
 summary: "How the systematic approach to problem-driven research from Sedlmair, Meyer, and Munzner's 2012 paper can be enhanced with AI, global collaboration, and adaptive frameworks to tackle 2025's complex challenges."
 ---
-
-# From Trenches to Transformation: How Design Study Methodology Can Accelerate Knowledge Evolution in 2025
 
 In 2012, Michael Sedlmair, Miriah Meyer, and Tamara Munzner published what would become a foundational paper in visualization research: "Design Study Methodology: Reflections from the Trenches and the Stacks." More than a decade later, their systematic approach to problem-driven research offers profound insights that extend far beyond visualization into the broader challenge of knowledge evolution in our rapidly changing world.
 
