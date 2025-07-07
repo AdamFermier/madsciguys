@@ -53,8 +53,12 @@ jobs:
         if: hashFiles('package*.json') != ''
 
       - name: Install Node.js dependencies
-        run: npm ci
-        if: hashFiles('package*.json') != ''
+        run: |
+          if [ -f "package-lock.json" ] || [ -f "npm-shrinkwrap.json" ]; then
+            npm ci
+          elif [ -f "package.json" ]; then
+            npm install
+          fi
 
       - name: Setup Pages
         id: pages
@@ -78,7 +82,8 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --verbose
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
