@@ -5,11 +5,19 @@ weight: 1
 Description: Key focus areas for pharma
 ---
 
-The pharmaceutical industry relies on a structured approach to ensure the safety and efficacy of new drugs, which entails a comprehensive clinical development process. This journey is guided by International Council for Harmonisation (ICH) regulations, which establish global standards for drug development and approval. Additionally, advancements in automation—both in laboratory settings and manufacturing plants—play a crucial role in enhancing efficiency and data accuracy throughout the process. This framework will explore these three interconnected areas: 
+The pharmaceutical industry is a dynamic and complex field dedicated to discovering, developing, and delivering medicines that improve and save lives. Success in this industry depends on the integration of rigorous scientific research, robust regulatory frameworks, and innovative technologies.
 
-- Clinical development process
-- Impact of ICH regulations
-- Role of automation in the pharmaceutical landscape
+At the heart of pharmaceutical progress is a structured clinical development process, designed to ensure that new drugs are both safe and effective. This process is governed by global standards set by the International Council for Harmonisation (ICH), whose guidelines help harmonize regulatory requirements and facilitate the development and approval of medicines worldwide.
+
+In recent years, automation and digital transformation have become essential to the industry. Automation in laboratories and manufacturing environments enhances efficiency, data integrity, and reproducibility, while digital tools enable better data management, advanced analytics, and streamlined operations across the drug development lifecycle.
+
+This framework explores three interconnected pillars shaping the future of pharmaceuticals:
+
+- **Clinical Development Process:** The pathway from discovery to approval, including preclinical research, clinical trials, and regulatory submission.
+- **ICH Regulations:** The global standards that guide quality, safety, and efficacy in drug development.
+- **Automation and Digitalization:** The technologies transforming research, manufacturing, and regulatory compliance.
+
+Understanding these areas is key to appreciating the challenges and opportunities facing the pharmaceutical sector as it strives to deliver innovative therapies to patients around the world.
 
 ## Cost of Pharma ([ref](https://www2.deloitte.com/us/en/pages/life-sciences-and-health-care/articles/measuring-return-from-pharmaceutical-innovation.html))
 
@@ -17,16 +25,13 @@ The pharmaceutical industry relies on a structured approach to ensure the safety
 
 ## IRR depends on both efficiency and value creation
 
-R&D Spending:
-
+**R&D Spending:**
 - Increased from $139.2 billion in 2022 to $145.5 billion in 2023 (4.5% rise).
 
-Asset Development Costs:
-
+**Asset Development Costs:**
 - Average cost to progress an asset from discovery to launch remains at $2.3 billion (steady from 2022 to 2023).
 
-Peak Sales Forecast:
-
+**Peak Sales Forecast:**
 - Average forecast peak sales per pipeline asset dropped from $389 million in 2022 to $362 million in 2023.
 - Continued decline from 2021 peak of $500 million, largely due to high-value COVID-19 assets.
 
