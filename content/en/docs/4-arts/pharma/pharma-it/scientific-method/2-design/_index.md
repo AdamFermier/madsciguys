@@ -1,7 +1,6 @@
 ---
 title: Design
 weight: 2
-pre: "<b>2. </b>"
 ---
 
 ## Design Thinking

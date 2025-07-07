@@ -1,7 +1,6 @@
 ---
 title: Critical Question
 weight: 1
-pre: "<b>1. </b>"
 ---
 
 ## What is the burning question you need answered?

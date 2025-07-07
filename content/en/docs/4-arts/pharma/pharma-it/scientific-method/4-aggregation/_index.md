@@ -1,7 +1,6 @@
 ---
 title: Aggregation
 weight: 4
-pre: "<b>4. </b>"
 ---
 
 ## Aggregation strategies come in many shapes and sizes
