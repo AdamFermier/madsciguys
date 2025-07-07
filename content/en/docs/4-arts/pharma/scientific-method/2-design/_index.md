@@ -1,12 +1,15 @@
 ---
 title: Design
 weight: 2
+description: Applying design thinking and contextual knowledge to shape effective, innovative, and value-driven pharmaceutical research and manufacturing projects.
 ---
 
 ## Design Thinking
 
-It is critical to follow a design thinking approach to be quite prescriptive in the outcomes you are trying to achieve
+A design thinking approach is essential for clearly defining the outcomes you aim to achieve in pharmaceutical research and manufacturing. This phase is about being prescriptive and intentional—identifying the business value, reviewing historical knowledge, and determining what gaps must be filled to move forward.
 
-A deliberate review of historical knowledge and designing what gaps need to be filled to help generate the business value.  Scoping of these projects in this design phase is critical to help 'dare to dream' our innovative approach to solve.  Note when studying any process, you must have that information in the context within which it was collected.  For manufacturing this core contextualized backbone is called material genealogy and a great paper for background is [here](2012-batch-genealogy-justin-neway.pdf)
+Scoping projects during the design phase is critical. It allows teams to "dare to dream" and innovate, while ensuring that every experiment or process improvement is grounded in a clear understanding of context. In manufacturing, this context is often captured through material genealogy—the detailed record of how materials and processes are linked throughout production.
+
+Understanding and documenting this genealogy is foundational for reproducibility, traceability, and process optimization. For a deeper dive into the importance of material genealogy in manufacturing, see this background paper: [2012-batch-genealogy-justin-neway.pdf](2012-batch-genealogy-justin-neway.pdf)
 
 {{< iframe-pdf "2012-batch-genealogy-justin-neway.pdf" >}}
