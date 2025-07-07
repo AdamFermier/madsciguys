@@ -83,7 +83,7 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --verbose
+            --logLevel info
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
