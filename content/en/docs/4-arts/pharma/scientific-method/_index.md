@@ -1,7 +1,7 @@
 ---
 title: Scientific Method in Digital Age
+linktitle: Scientific Method
 weight: 1
-archetype: "default"
 ---
 
 
