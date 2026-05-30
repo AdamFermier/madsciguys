@@ -1,4 +1,4 @@
-# Build and deploy a Hugo site to GitHub Pages with branch-specific subpaths
+# Build and deploy a Hugo site to GitHub Pages with branch-specific destinations
 name: Build and deploy Hugo site to Pages
 
 on:
@@ -28,6 +28,10 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      branch: ${{ steps.paths.outputs.branch }}
+      subdir: ${{ steps.paths.outputs.subdir }}
+      baseUrl: ${{ steps.paths.outputs.baseUrl }}
     env:
       HUGO_VERSION: 0.134.3
     steps:
@@ -73,12 +77,12 @@ jobs:
               BASEURL='https://adamfermier.github.io/madsciguys/'
               ;;
             dev)
-              SUBDIR='dev'
-              BASEURL='https://adamfermier.github.io/madsciguys/dev/'
+              SUBDIR='madsciguys.dev'
+              BASEURL='https://adamfermier.github.io/madsciguys.dev/'
               ;;
             staging)
-              SUBDIR='staging'
-              BASEURL='https://adamfermier.github.io/madsciguys/staging/'
+              SUBDIR='madsciguys.staging'
+              BASEURL='https://adamfermier.github.io/madsciguys.staging/'
               ;;
             *)
               echo "Unsupported branch: $BRANCH"
@@ -112,8 +116,23 @@ jobs:
             --destination public \
             --logLevel info
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: public
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: public
+
       - name: Deploy to gh-pages root
-        if: ${{ steps.paths.outputs.subdir == '' }}
+        if: ${{ needs.build.outputs.subdir == '' }}
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -123,14 +142,14 @@ jobs:
           allow_empty_commit: true
           commit_message: 'Deploy Hugo site from main branch'
 
-      - name: Deploy to gh-pages subdir
-        if: ${{ steps.paths.outputs.subdir != '' }}
+      - name: Deploy to gh-pages environment directory
+        if: ${{ needs.build.outputs.subdir != '' }}
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
-          destination_dir: ${{ steps.paths.outputs.subdir }}
+          destination_dir: ${{ needs.build.outputs.subdir }}
           keep_files: true
           allow_empty_commit: true
-          commit_message: 'Deploy Hugo site from ${{ steps.paths.outputs.branch }} branch'
+          commit_message: 'Deploy Hugo site from ${{ needs.build.outputs.branch }} branch'
