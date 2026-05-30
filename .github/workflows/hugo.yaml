@@ -137,9 +137,6 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ needs.build.outputs.baseUrl }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
