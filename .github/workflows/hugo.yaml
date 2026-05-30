@@ -38,7 +38,7 @@ jobs:
       subdir: ${{ steps.paths.outputs.subdir }}
       baseUrl: ${{ steps.paths.outputs.baseUrl }}
     env:
-      HUGO_VERSION: 0.134.3
+      HUGO_VERSION: 0.161.1
     steps:
       - name: Checkout
         uses: actions/checkout@v6
