@@ -139,3 +139,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+      - name: Show deployed URL
+        run: |
+          echo "Deploy page URL: ${{ steps.deployment.outputs.page_url }}"
