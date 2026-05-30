@@ -16,6 +16,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -39,7 +41,7 @@ jobs:
       HUGO_VERSION: 0.134.3
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: recursive
           fetch-depth: 0
@@ -52,7 +54,7 @@ jobs:
 
       - name: Setup Node.js
         if: hashFiles('package*.json') != ''
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '20'
           cache: ${{ hashFiles('package-lock.json', 'npm-shrinkwrap.json', 'yarn.lock') != '' && 'npm' || '' }}
@@ -105,7 +107,7 @@ jobs:
           echo "buildDir=$BUILD_DIR" >> "$GITHUB_OUTPUT"
 
       - name: Cache Hugo resources
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: resources
           key: ${{ runner.os }}-hugo-resources-${{ hashFiles('**/*.md') }}
