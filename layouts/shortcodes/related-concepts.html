@@ -1,0 +1,72 @@
+{{/* related-concepts shortcode
+     Renders the related_concepts frontmatter list as a "graph connections" card.
+     Usage: {{< related-concepts >}}
+     Falls back gracefully if no related_concepts are defined.
+*/}}
+{{ $concepts := .Page.Params.related_concepts }}
+{{ if $concepts }}
+<div class="related-concepts mt-4 mb-2">
+  <h5 class="related-concepts__heading">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+         style="vertical-align:-3px; margin-right:6px;">
+      <circle cx="12" cy="5" r="3"/><circle cx="19" cy="19" r="3"/><circle cx="5" cy="19" r="3"/>
+      <line x1="12" y1="8" x2="19" y2="16"/><line x1="12" y1="8" x2="5" y2="16"/>
+    </svg>
+    Knowledge Graph Connections
+  </h5>
+  <div class="related-concepts__grid">
+    {{ range $concepts }}
+    <a href="{{ .url }}" class="related-concepts__card">
+      <span class="related-concepts__rel badge">{{ .relationship | humanize }}</span>
+      <span class="related-concepts__name">{{ .concept }}</span>
+    </a>
+    {{ end }}
+  </div>
+</div>
+<style>
+.related-concepts__heading {
+  color: #2980b9;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: .75rem;
+}
+.related-concepts__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.related-concepts__card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #85c1e9;
+  border-radius: 8px;
+  padding: .5rem .75rem;
+  text-decoration: none;
+  background: #ebf5fb;
+  min-width: 150px;
+  max-width: 220px;
+  transition: background .15s, border-color .15s;
+}
+.related-concepts__card:hover {
+  background: #d6eaf8;
+  border-color: #2980b9;
+  text-decoration: none;
+}
+.related-concepts__rel {
+  font-size: .7rem;
+  background: #2980b9;
+  color: white;
+  border-radius: 4px;
+  padding: 1px 6px;
+  margin-bottom: 4px;
+  display: inline-block;
+  width: fit-content;
+}
+.related-concepts__name {
+  font-size: .85rem;
+  color: #1a252f;
+  font-weight: 500;
+}
+</style>
+{{ end }}

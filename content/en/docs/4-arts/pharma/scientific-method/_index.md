@@ -2,6 +2,23 @@
 title: Scientific Method in Digital Age
 linktitle: Scientific Method
 weight: 1
+categories: ["Research", "Methodology"]
+tags: ["scientific method", "reproducibility", "open science", "pharma"]
+discipline: ["science", "arts"]
+persona: ["pharma-product-developer", "analytical-chemist", "data-scientist"]
+related_concepts:
+  - concept: "Predictive Modeling"
+    url: "/docs/5-math/predictive-modeling/"
+    relationship: "informs-design-of"
+  - concept: "Control Strategy"
+    url: "/docs/4-arts/pharma/introduction/control-strategy/"
+    relationship: "produces"
+  - concept: "Design Study Methodology"
+    url: "/docs/4-arts/knowledge-management/design-study-methodology/"
+    relationship: "evolved-by"
+  - concept: "Knowledge Management"
+    url: "/docs/4-arts/knowledge-management/"
+    relationship: "requires"
 ---
 
 ## Scientific Method in the Digital Age
@@ -34,4 +51,8 @@ To ensure global scalability and long-term accessibility:
 
 ---
 
-By aligning with the principles of The Turing Way, we can foster a culture of reproducible, open, and collaborative science—accelerating discovery and ensuring that our work benefits the broader scientific
+By aligning with the principles of The Turing Way, we can foster a culture of reproducible, open, and collaborative science—accelerating discovery and ensuring that our work benefits the broader scientific community.
+
+---
+
+{{< related-concepts >}}

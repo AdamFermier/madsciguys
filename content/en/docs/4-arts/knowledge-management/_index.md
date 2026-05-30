@@ -7,6 +7,22 @@ categories: ["Knowledge", "Research", "STEAM"]
 tags: ["knowledge management", "taxonomy", "metadata", "collaboration"]
 discipline: ["arts", "science"]
 persona: ["knowledge-manager", "design-researcher"]
+related_concepts:
+  - concept: "Ontological Semantics"
+    url: "/docs/4-arts/knowledge-management/ontological-semantics/"
+    relationship: "grounded-in"
+  - concept: "Design Study Methodology"
+    url: "/docs/4-arts/knowledge-management/design-study-methodology/"
+    relationship: "evolved-by"
+  - concept: "STEAM Knowledge Graph"
+    url: "/docs/knowledge-graph/"
+    relationship: "instantiates"
+  - concept: "Predictive Modeling"
+    url: "/docs/5-math/predictive-modeling/"
+    relationship: "applies-to"
+  - concept: "Industry 4.0"
+    url: "/docs/4-arts/industrial-revolution-4.0/"
+    relationship: "context"
 ---
 
 Knowledge Management is a key revenue source as it helps ensure you do not repeat what others may know and ensures you are spending the scarce resources you have in the most effective manner.
@@ -174,4 +190,8 @@ Modern digital tools have transformed knowledge management capabilities:
 - **Expert Networks**: Connect knowledge seekers with relevant experts regardless of location
 
 ### Intelligent Organization
-- **Semantic Tagging**: Use AI to automatically categorize and tag kn
+- **Semantic Tagging**: Use AI to automatically categorize and tag knowledge assets for faster discovery
+
+---
+
+{{< related-concepts >}}
