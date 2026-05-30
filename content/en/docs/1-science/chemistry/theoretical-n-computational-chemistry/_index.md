@@ -1,6 +1,10 @@
 ---
 title: Theoretical and Computational Chemistry
-description: Theoretical and computational chemistry combines mathematical models, physics, and computer simulations to explore the behavior of molecules and chemical reactions. 
+description: Theoretical and computational chemistry combines mathematical models, physics, and computer simulations to explore the behavior of molecules and chemical reactions.
+categories: ["Chemistry", "Computational Science"]
+tags: ["computational chemistry", "quantum chemistry", "molecular modeling", "simulation"]
+discipline: ["science", "chemistry", "math"]
+persona: ["theoretical-chemist", "mathematician"]
 ---
 
 **Theoretical and Computational Chemistry: Modeling the Molecular World**

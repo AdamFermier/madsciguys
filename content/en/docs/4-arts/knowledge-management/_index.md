@@ -3,6 +3,10 @@ title: "Knowledge Management: The Strategic Foundation of Research"
 linktitle: "Knowledge Management"
 description: "Knowledge management is the pro-active organization of information known about a subject of study in a manner that helps transfer what is known by one to another - a key revenue source that prevents duplicated effort and maximizes research impact."
 weight: 2
+categories: ["Knowledge", "Research", "STEAM"]
+tags: ["knowledge management", "taxonomy", "metadata", "collaboration"]
+discipline: ["arts", "science"]
+persona: ["knowledge-manager", "design-researcher"]
 ---
 
 Knowledge Management is a key revenue source as it helps ensure you do not repeat what others may know and ensures you are spending the scarce resources you have in the most effective manner.

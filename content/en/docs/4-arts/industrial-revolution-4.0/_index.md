@@ -3,8 +3,10 @@ title: "Industrial Revolution 4.0: The Dawn of Intelligent Manufacturing"
 linktitle: "Industrial Revolution 4.0"
 description: "Discover how Industrial Revolution 4.0 enables teams to 'Dare to Dream' about how all disciplines can resonate and shape solutions that transform manufacturing through five foundational technologies."
 date: 2025-07-06
-tags: ["industry 4.0", "industrial revolution", "digital transformation", "manufacturing", "automation"]
-categories: ["Technology & Innovation"]
+tags: ["industry 4.0", "industrial revolution", "digital transformation", "manufacturing", "automation", "systems integration"]
+categories: ["Technology & Innovation", "Engineering"]
+discipline: ["technology", "engineering"]
+persona: ["systems-integration-engineer"]
 ---
 
 We stand at the threshold of the Fourth Industrial Revolution, a transformative era that fundamentally reimagines how we design, manufacture, and deliver products. Industry 4.0 represents more than technological advancement—it embodies a paradigm shift that enables teams to 'Dare to Dream' about how all disciplines can resonate and shape solutions that were previously impossible to achieve.

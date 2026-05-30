@@ -3,6 +3,10 @@ title: Pharmaceuticals
 linkTitle: Pharma
 weight: 1
 description: Exploring the art and science of creating and delivering life-saving medicines.
+categories: ["Pharmaceuticals", "Health", "STEAM"]
+tags: ["drug development", "manufacturing", "regulatory", "patient-centered design"]
+discipline: ["arts", "science", "engineering"]
+persona: ["pharma-product-developer", "analytical-chemist"]
 ---
 
 The development and delivery of medicinal products is both an art and a science. Beyond the rigorous research and clinical trials, the process involves creativity, collaboration, and a deep understanding of human needs. The pharmaceutical arts encompass:
