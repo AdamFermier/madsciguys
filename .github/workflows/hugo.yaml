@@ -137,11 +137,15 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ needs.build.outputs.baseUrl }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
 
-      - name: Show deployed URL
+      - name: Show deploy URL
         run: |
-          echo "Deploy page URL: ${{ steps.deployment.outputs.page_url }}"
+          echo "Expected Pages URL: ${{ needs.build.outputs.baseUrl }}"
+          echo "Deployed Pages URL: ${{ steps.deployment.outputs.page_url }}"
