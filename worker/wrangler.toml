@@ -1,0 +1,14 @@
+name = "madsciguys-chat"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# After deploying, your Worker URL will be:
+# https://madsciguys-chat.<your-account>.workers.dev
+#
+# Set your Anthropic API key as a secret (never commit it):
+#   npx wrangler secret put ANTHROPIC_API_KEY
+#
+# Then paste the Worker URL into hugo.yaml → params.chatWorkerUrl
+
+[observability]
+enabled = true

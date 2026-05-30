@@ -88,6 +88,12 @@ params:
 
   privacy_policy: https://policies.google.com/privacy
 
+  # Cloudflare Worker URL for the STEAM chat assistant.
+  # Leave empty ("") to hide the widget until your Worker is deployed.
+  # After deploying: npx wrangler deploy (inside /worker), then paste the URL here.
+  # Format: https://madsciguys-chat.<your-account>.workers.dev
+  chatWorkerUrl: ""
+
   # First one is picked as the Twitter card image if not set on page.
   # images: [images/project-illustration.png]
 
