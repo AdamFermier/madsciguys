@@ -21,6 +21,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 defaults:
   run:
     shell: bash
@@ -78,11 +81,11 @@ jobs:
               ;;
             dev)
               SUBDIR='madsciguys.dev'
-              BASEURL='https://adamfermier.github.io/madsciguys.dev/'
+              BASEURL='https://adamfermier.github.io/madsciguys/madsciguys.dev/'
               ;;
             staging)
               SUBDIR='madsciguys.staging'
-              BASEURL='https://adamfermier.github.io/madsciguys.staging/'
+              BASEURL='https://adamfermier.github.io/madsciguys/madsciguys.staging/'
               ;;
             *)
               echo "Unsupported branch: $BRANCH"
@@ -117,7 +120,7 @@ jobs:
             --logLevel info
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: public
           path: public
@@ -127,13 +130,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: public
 
       - name: Deploy to gh-pages root
         if: ${{ needs.build.outputs.subdir == '' }}
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
