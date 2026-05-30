@@ -1,6 +1,7 @@
 name = "madsciguys-chat"
 main = "src/index.js"
 compatibility_date = "2025-01-01"
+workers_dev = true
 
 # After deploying, your Worker URL will be:
 # https://madsciguys-chat.<your-account>.workers.dev

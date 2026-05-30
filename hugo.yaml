@@ -92,7 +92,7 @@ params:
   # Leave empty ("") to hide the widget until your Worker is deployed.
   # After deploying: npx wrangler deploy (inside /worker), then paste the URL here.
   # Format: https://madsciguys-chat.<your-account>.workers.dev
-  chatWorkerUrl: ""
+  chatWorkerUrl: "https://madsciguys-chat.madsciguys.workers.dev"
 
   # First one is picked as the Twitter card image if not set on page.
   # images: [images/project-illustration.png]
