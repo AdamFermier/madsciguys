@@ -16,7 +16,7 @@ We are taking a bold step forward and looking to teach many how to embrace this 
 
 <p>
 
-Our vision is to promote the integration of the arts (A) with the traditional STEM disciplines (Science, Technology, Engineering, Mathematics) to foster a more well-rounded, creative, and innovative approach to fundemental research and problem-solving.
+Our vision is to promote the integration of the arts (A) with the traditional STEM disciplines (Science, Technology, Engineering, Mathematics) to foster a more well-rounded, creative, and innovative approach to fundamental research and problem-solving.
 </p>
 </div>
 

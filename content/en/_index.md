@@ -26,6 +26,6 @@ Adding the "ARTS" to the classic STEM thinking helps the <strong>design elements
 
 {{% blocks/section %}}
 <p style="text-align: center;">
-It takes patience and persistance to make your dream come to life!
+It takes patience and persistence to make your dream come to life!
 </p>
 {{% /blocks/section %}}

@@ -22,6 +22,8 @@ enableGitInfo: true
 taxonomies:
   tag: tags
   category: categories
+  discipline: disciplines
+  persona: personas
 
 # Highlighting config
 pygmentsCodeFences: true
@@ -76,13 +78,13 @@ outputs:
 params:
   taxonomy:
     # set taxonomyCloud = [] to hide taxonomy clouds
-    taxonomyCloud: [tags, categories]
+    taxonomyCloud: [tags, categories, disciplines, personas]
 
     # If used, must have same length as taxonomyCloud
-    taxonomyCloudTitle: [Tag Cloud, Categories]
+    taxonomyCloudTitle: [Tag Cloud, Categories, Disciplines, Personas]
 
     # set taxonomyPageHeader = [] to hide taxonomies on the page headers
-    taxonomyPageHeader: [tags, categories]
+    taxonomyPageHeader: [tags, categories, disciplines, personas]
 
   privacy_policy: https://policies.google.com/privacy
 

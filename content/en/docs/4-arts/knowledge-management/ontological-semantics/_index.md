@@ -5,7 +5,7 @@ Description: "is a theory of meaning in natural language and an approach to natu
 
 ## Archectecture of Ontological Semantics
 
-The key components required to build a knowledge framework leveraging the "Ontological Semantics" that has helped enable the current field of "Large Language Models" which help us to create knolwedge out of existing sources in a systematic manner.
+The key components required to build a knowledge framework leveraging the "Ontological Semantics" that has helped enable the current field of "Large Language Models" which help us to create knowledge out of existing sources in a systematic manner.
 
 ### A set of static knowledge sources
 
@@ -14,7 +14,7 @@ The key components required to build a knowledge framework leveraging the "Ontol
 - **Lexicon**
 - **Onomasticon**
 
-### A knolwedge Representation Language
+### A knowledge Representation Language
 
 Helps derive meaning from ontologies and lexicons leveraging domain specific facts and associated onomasticons
 
@@ -27,8 +27,8 @@ Helps drive the user interactions to the overall knowledge management framework 
 Ontological semantics can help support:
 
 - Text Summarization
-- Question and Answering 
-- Artifically Intelligent Agents
+- Question and Answering
+- Artificially Intelligent Agents
 
 ### Advantage on Ontological Semantics
 
