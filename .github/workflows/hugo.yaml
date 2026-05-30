@@ -134,7 +134,25 @@ jobs:
         with:
           path: ./public
 
-  deploy:
+  deploy_main:
+    if: ${{ needs.build.outputs.branch == 'main' }}
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ needs.build.outputs.baseUrl }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Show deploy URL
+        run: |
+          echo "Expected Pages URL: ${{ needs.build.outputs.baseUrl }}"
+          echo "Deployed Pages URL: ${{ steps.deployment.outputs.page_url }}"
+
+  deploy_branch:
+    if: ${{ needs.build.outputs.branch != 'main' }}
     needs: build
     runs-on: ubuntu-latest
     steps:
