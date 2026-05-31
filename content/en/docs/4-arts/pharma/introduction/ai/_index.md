@@ -2,7 +2,27 @@
 title: Artificial Intelligence
 linkTitle: AI
 weight: 1
-Description: Artificial Intelligence and Pharma
+description: "Artificial Intelligence and Pharma — how LLMs, graph-based approaches, and machine learning are transforming pharmaceutical research and development."
+categories: ["Pharma", "Technology & Innovation"]
+tags: ["AI", "LLM", "machine learning", "knowledge graph", "pharma", "drug discovery"]
+discipline: ["arts", "technology", "science"]
+persona: ["pharma-product-developer", "data-scientist", "knowledge-manager"]
+related_concepts:
+  - concept: "Ontological Semantics"
+    url: "/docs/4-arts/knowledge-management/ontological-semantics/"
+    relationship: "theoretical-foundation"
+  - concept: "Predictive Modeling"
+    url: "/docs/5-math/predictive-modeling/"
+    relationship: "applies"
+  - concept: "Knowledge Management"
+    url: "/docs/4-arts/knowledge-management/"
+    relationship: "requires"
+  - concept: "STEAM Knowledge Graph"
+    url: "/docs/knowledge-graph/"
+    relationship: "graph-based-approach"
+  - concept: "Industry 4.0"
+    url: "/docs/4-arts/industrial-revolution-4.0/"
+    relationship: "context"
 ---
 
 There has been a lot of hype around AI and pharma - how it can reduce costs and remove a lot of manual labor that for sometime was always seen as necessary human activities, that is writing.  But now with large language models, AI can really start eroding away at those manual human tasks and launch us into the Industry 5.0 mentality of workers with AI assistance to do their jobs.
@@ -27,3 +47,7 @@ A great paper was published
 5. **Data Clustering and Frameworks**: Encompasses specialized frameworks such as Density-Based Spatial Clustering of Applications with Noise (DBSCAN), Federated Learning Frameworks, and other clustering or data framework technologies.
 
 6. **IoT and Miscellaneous Technologies**: A broad category for various technologies, including the Internet of Things (IoT) and others that don't neatly fit into the previously mentioned categories.
+
+---
+
+{{< related-concepts >}}

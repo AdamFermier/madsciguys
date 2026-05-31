@@ -1,10 +1,28 @@
 ---
 title: Control Strategies
 linktitle: Control Strategies
-description: "A risk based approach to define a control strategy"
+description: "A risk-based approach to defining a control strategy using ICH QbD principles — linking knowledge space, design space, and control space."
 date: 2024-09-08T11:07:23.452Z
-tags: []
-categories: [ICH]
+tags: ["control strategy", "QbD", "ICH", "knowledge space", "design space", "risk management"]
+categories: ["Pharma", "ICH"]
+discipline: ["arts", "science"]
+persona: ["pharma-product-developer", "analytical-chemist"]
+related_concepts:
+  - concept: "Scientific Method"
+    url: "/docs/4-arts/pharma/scientific-method/"
+    relationship: "follows"
+  - concept: "ICH QbD Guidelines"
+    url: "/docs/4-arts/pharma/introduction/regs-n-guidelines/ich/ich-qbd/"
+    relationship: "standardized-by"
+  - concept: "Knowledge Management"
+    url: "/docs/4-arts/knowledge-management/"
+    relationship: "requires"
+  - concept: "Predictive Modeling"
+    url: "/docs/5-math/predictive-modeling/"
+    relationship: "informed-by"
+  - concept: "STEAM Knowledge Graph"
+    url: "/docs/knowledge-graph/"
+    relationship: "context"
 ---
 
 
@@ -50,3 +68,5 @@ rectangle "Knowledge Space" {
 }
 
 ```
+
+{{< related-concepts >}}
