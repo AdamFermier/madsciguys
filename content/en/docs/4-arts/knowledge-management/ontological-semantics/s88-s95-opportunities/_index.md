@@ -1,6 +1,26 @@
 ---
 title: "Paper on Glass: Digital Process Data Capture with S88/S95 Ontology Alignment"
-description: 
+description: "How S88 batch control and S95 enterprise-integration ontologies align with paper-on-glass interfaces to create a unified, semantically rich manufacturing knowledge framework."
+categories: ["Engineering", "Knowledge", "Pharma"]
+tags: ["S88", "S95", "ISA", "ontology alignment", "paper on glass", "manufacturing", "recipe management"]
+discipline: ["engineering", "technology", "arts"]
+persona: ["systems-integration-engineer", "pharma-product-developer", "knowledge-manager"]
+related_concepts:
+  - concept: "Ontological Semantics"
+    url: "/docs/4-arts/knowledge-management/ontological-semantics/"
+    relationship: "applies"
+  - concept: "Industry 4.0"
+    url: "/docs/4-arts/industrial-revolution-4.0/"
+    relationship: "standardizes"
+  - concept: "Control Strategy"
+    url: "/docs/4-arts/pharma/introduction/control-strategy/"
+    relationship: "supports"
+  - concept: "Knowledge Management"
+    url: "/docs/4-arts/knowledge-management/"
+    relationship: "instantiates"
+  - concept: "STEAM Knowledge Graph"
+    url: "/docs/knowledge-graph/"
+    relationship: "context"
 ---
 ## Abstract
 
@@ -217,3 +237,7 @@ The paper on glass paradigm, when properly aligned with S88 and S95 ontologies, 
 The key to success lies not in abandoning proven workflows, but in enhancing them with structured data capture, standardized semantics, and intelligent automation. This approach preserves the valuable tacit knowledge embedded in traditional practices while enabling the data-driven insights necessary for competitive manufacturing.
 
 As industries continue their digital transformation journeys, the paper on glass concept provides a pathway that respects operational heritage while embracing technological possibility. The alignment with established ontologies ensures that today's digitization efforts build toward tomorrow's intelligent manufacturing systems.
+
+---
+
+{{< related-concepts >}}

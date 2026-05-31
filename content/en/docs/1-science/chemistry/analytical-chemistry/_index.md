@@ -1,6 +1,10 @@
 ---
 title: Analytical Chemistry
-description: Analytical chemistry focuses on identifying, quantifying, and characterizing chemical substances with precision and accuracy. 
+description: Analytical chemistry focuses on identifying, quantifying, and characterizing chemical substances with precision and accuracy.
+categories: ["STEM", "Science", "Chemistry"]
+tags: ["analytical chemistry", "measurement", "quality", "laboratory"]
+discipline: ["science", "chemistry"]
+persona: ["analytical-chemist"]
 ---
 
 **Analytical Chemistry: The Science of Detection and Measurement**

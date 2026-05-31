@@ -4,9 +4,23 @@ date: 2025-07-06
 linktitle: Design Study Methodology
 tags: ["research methodology", "design studies", "knowledge evolution", "AI", "collaboration", "2025"]
 categories: ["Research", "Methodology", "Innovation"]
-author: "Your Name"
 description: "Reflecting on the seminal 2012 design study methodology paper and exploring how its principles can be reimagined to accelerate knowledge creation in our rapidly evolving world."
 summary: "How the systematic approach to problem-driven research from Sedlmair, Meyer, and Munzner's 2012 paper can be enhanced with AI, global collaboration, and adaptive frameworks to tackle 2025's complex challenges."
+discipline: ["arts", "science"]
+persona: ["design-researcher", "knowledge-manager"]
+related_concepts:
+  - concept: "Knowledge Management"
+    url: "/docs/4-arts/knowledge-management/"
+    relationship: "validates"
+  - concept: "Ontological Semantics"
+    url: "/docs/4-arts/knowledge-management/ontological-semantics/"
+    relationship: "grounded-in"
+  - concept: "Scientific Method"
+    url: "/docs/4-arts/pharma/scientific-method/"
+    relationship: "extends"
+  - concept: "STEAM Knowledge Graph"
+    url: "/docs/knowledge-graph/"
+    relationship: "methodology-for"
 ---
 
 In 2012, Michael Sedlmair, Miriah Meyer, and Tamara Munzner published what would become a foundational paper in visualization research: "Design Study Methodology: Reflections from the Trenches and the Stacks." More than a decade later, their systematic approach to problem-driven research offers profound insights that extend far beyond visualization into the broader challenge of knowledge evolution in our rapidly changing world.
@@ -127,3 +141,7 @@ The future of knowledge evolution isn't just about creating new information—it
 The trenches of 2025 may be digital, global, and interconnected, but the fundamental need for systematic, collaborative, and reflective approaches to knowledge creation remains unchanged. What has changed is our capacity to implement these approaches at unprecedented scale and speed.
 
 The question isn't whether we can evolve our knowledge creation processes—it's whether we can do it fast enough to keep pace with the challenges ahead. The design study methodology provides both the foundation and the inspiration for this vital transformation.
+
+---
+
+{{< related-concepts >}}

@@ -22,6 +22,8 @@ enableGitInfo: true
 taxonomies:
   tag: tags
   category: categories
+  discipline: disciplines
+  persona: personas
 
 # Highlighting config
 pygmentsCodeFences: true
@@ -45,7 +47,7 @@ imaging:
 # Language configuration
 languages:
   en:
-    languageName: English
+    label: English
     title: STEM to STEAM
     params:
       description: Research on STEM to STEAM
@@ -76,15 +78,21 @@ outputs:
 params:
   taxonomy:
     # set taxonomyCloud = [] to hide taxonomy clouds
-    taxonomyCloud: [tags, categories]
+    taxonomyCloud: [tags, categories, disciplines, personas]
 
     # If used, must have same length as taxonomyCloud
-    taxonomyCloudTitle: [Tag Cloud, Categories]
+    taxonomyCloudTitle: [Tag Cloud, Categories, Disciplines, Personas]
 
     # set taxonomyPageHeader = [] to hide taxonomies on the page headers
-    taxonomyPageHeader: [tags, categories]
+    taxonomyPageHeader: [tags, categories, disciplines, personas]
 
   privacy_policy: https://policies.google.com/privacy
+
+  # Cloudflare Worker URL for the STEAM chat assistant.
+  # Leave empty ("") to hide the widget until your Worker is deployed.
+  # After deploying: npx wrangler deploy (inside /worker), then paste the URL here.
+  # Format: https://madsciguys-chat.<your-account>.workers.dev
+  chatWorkerUrl: "https://madsciguys-chat.madsciguys.workers.dev"
 
   # First one is picked as the Twitter card image if not set on page.
   # images: [images/project-illustration.png]
